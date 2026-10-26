@@ -1,0 +1,27 @@
+# Local-only working folders
+/content/
+/raw/
+
+# Local-only navigation and rules
+/AGENTS.md
+/README.md
+/raw/README.md
+/content/README.md
+
+# Secrets and state
+.env
+.env.*
+*.pem
+*.key
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+
